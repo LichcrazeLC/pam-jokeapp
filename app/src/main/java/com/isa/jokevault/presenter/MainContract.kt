@@ -1,6 +1,7 @@
-package com.isa.jokevault
+package com.isa.jokevault.presenter
 
 import com.isa.jokevault.model.Joke
+import com.isa.jokevault.view.BaseView
 
 interface MainContract {
     interface Presenter : BasePresenter {

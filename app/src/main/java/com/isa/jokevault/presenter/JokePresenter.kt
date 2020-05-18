@@ -1,6 +1,7 @@
-package com.isa.jokevault
+package com.isa.jokevault.presenter
 
 import android.util.Log
+import com.isa.jokevault.DependencyInjector
 import com.isa.jokevault.model.Joke
 import com.isa.jokevault.model.JokeRepository
 import retrofit2.Call

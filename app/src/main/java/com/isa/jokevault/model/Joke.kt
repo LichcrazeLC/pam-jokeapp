@@ -7,6 +7,7 @@ data class Joke(var id: Number?) {
     var delivery: String? = null
     var flags: Flags? = null
     var error: Boolean? = null
+    var joke: String? = null
 }
 
 class Flags{
