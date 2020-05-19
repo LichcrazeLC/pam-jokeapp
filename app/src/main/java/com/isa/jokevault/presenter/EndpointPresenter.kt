@@ -4,8 +4,6 @@ import android.util.Log
 import com.isa.jokevault.DependencyInjector
 import com.isa.jokevault.model.Endpoint
 import com.isa.jokevault.model.EndpointRepository
-import com.isa.jokevault.model.Joke
-import com.isa.jokevault.model.JokeRepository
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
