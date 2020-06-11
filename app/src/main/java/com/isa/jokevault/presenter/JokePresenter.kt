@@ -33,7 +33,7 @@ class JokePresenter(view: MainContract.View, dependencyInjector: DependencyInjec
     override fun onResponse(call: Call<Joke>, response: Response<Joke>) {
         if (response.isSuccessful){
             view?.displayJoke(response.body()!!)
-            Log.d("INFO", "HTTP GET for /v2/joke/any successful")
+//            Log.d("INFO", "HTTP GET for /v2/joke/any successful")
         }
     }
 

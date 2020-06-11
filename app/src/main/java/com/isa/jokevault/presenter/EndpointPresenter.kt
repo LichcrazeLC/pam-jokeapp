@@ -29,7 +29,7 @@ class EndpointPresenter(view: InfoContract.View, dependencyInjector: DependencyI
     override fun onResponse(call: Call<List<Endpoint>>, response: Response<List<Endpoint>>) {
         if (response.isSuccessful){
             view?.displayEndpoints(response.body()!!)
-            Log.d("INFO", "HTTP GET for /v2/endpoints successful")
+            //Log.d("INFO", "HTTP GET for /v2/endpoints successful")
         }
     }
 

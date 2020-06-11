@@ -1,5 +1,7 @@
 package com.isa.jokevault
 
+import com.isa.jokevault.model.JokeEndpoints
+import com.isa.jokevault.model.ServiceBuilder
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -9,7 +11,7 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
+class Default {
     @Test
     fun addition_isCorrect() {
         assertEquals(4, 2 + 2)
